@@ -1,0 +1,131 @@
+.SearchTaskForm{
+  width: 100%;
+  margin-top: -4rem;
+}
+
+.SearchTaskForm form{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.SearchTaskForm textarea {
+  width: 100%;
+  background: var(--gray-500);
+  border: 0;
+  resize: none;
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-300);
+  line-height: 1.4;
+}
+
+.SearchTaskForm button[type=submit] {
+  display:flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--blue-dark);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.SearchTaskForm button[type=submit]:not(:disabled):hover {
+  background: var(--blue);
+}
+
+.SearchTaskForm button[type=submit]:disabled{
+  opacity: 0.7;
+  cursor:not-allowed;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  padding: 4.5rem 0 1rem 0;
+  border-bottom: 1px solid var(--gray-400); 
+}
+
+.taskCreated {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.taskCreated p {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.taskCreated span {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.125rem 0.6rem;
+  border-radius: 999rem;
+  color: var(--gray-200);
+  background: var(--gray-400);
+}
+
+.taskCompleted {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.taskCompleted p {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.taskCompleted span {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.125rem 0.6rem;
+  border-radius: 999rem;
+  color: var(--gray-200);
+  background: var(--gray-400);
+}
+
+.TaskList {
+  display: column;
+  width: 100%;
+  gap: 10px;
+}
+
+.TaskContent{
+  display: flex;
+  width: 100%;
+  justify-content: between;
+}
+
+.TaskListVoid {
+  display: flex-column;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.TaskListVoid h1 {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.TaskListVoid p {
+  font-size: 0.98rem;
+  font-weight: 400;
+}

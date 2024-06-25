@@ -1,0 +1,87 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  display: columns;
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  padding: 4.5rem 0 1rem 0;
+  border-bottom: 1px solid var(--gray-400); 
+}
+
+.taskCreated {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.taskCreated p {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.taskCreated span {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.125rem 0.6rem;
+  border-radius: 999rem;
+  color: var(--gray-200);
+  background: var(--gray-400);
+}
+
+.taskCompleted {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.taskCompleted p {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.taskCompleted span {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.125rem 0.6rem;
+  border-radius: 999rem;
+  color: var(--gray-200);
+  background: var(--gray-400);
+}
+
+.TaskList {
+  display: row;
+  width: 100%;
+  margin-top: -1.8rem;
+  padding: 2rem 0;
+  list-style: none;
+}
+.TaskList ul{
+  display: row;
+  width: 100%;
+  list-style: none;
+}
+
+
+
