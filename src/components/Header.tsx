@@ -1,11 +1,11 @@
-import styles from "./Header.module.css"
-import todoLogo from "../assets/rocket.svg";
+import styles from "./Header.module.css";
+import icon from "../assets/layout-list.svg";
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <img src={todoLogo} alt="Logotipo do todo" />  
-      <strong>to<span>do</span></strong>
+      <img src={icon} alt="logo" />
+      <strong>Suas Tarefas</strong>
     </header>
-  )
+  );
 }

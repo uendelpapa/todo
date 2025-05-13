@@ -51,15 +51,15 @@
   height: 17.5px;
   padding: 8px;
   background: none;
-  border: 2px solid var(--blue);
+  border: 2px solid var(--emerald);
   border-radius: 9999px;
   cursor: pointer;
 }
 
 /* Estilo quando o checkbox está marcado */
 .Task input[type="checkbox"]:checked + label {
-  background-color: var(--purple-dark);
-  border: 2px solid var(--purple-dark);
+  background-color: var(--lime-dark);
+  border: 2px solid var(--lime-dark);
 }
 
   

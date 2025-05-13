@@ -1,9 +1,9 @@
-.SearchTaskForm{
+.SearchTaskForm {
   width: 100%;
   margin-top: -4rem;
 }
 
-.SearchTaskForm form{
+.SearchTaskForm form {
   display: flex;
   width: 100%;
   align-items: center;
@@ -22,14 +22,14 @@
   line-height: 1.4;
 }
 
-.SearchTaskForm button[type=submit] {
-  display:flex;
+.SearchTaskForm button[type="submit"] {
+  display: flex;
   align-items: center;
   gap: 0.5rem;
   padding: 1rem;
   border-radius: 8px;
   border: 0;
-  background: var(--blue-dark);
+  background: var(--green-dark);
   color: var(--white);
   font-weight: bold;
   font-size: 0.875rem;
@@ -37,20 +37,20 @@
   transition: background-color 0.1s;
 }
 
-.SearchTaskForm button[type=submit]:not(:disabled):hover {
-  background: var(--blue);
+.SearchTaskForm button[type="submit"]:not(:disabled):hover {
+  background: var(--green);
 }
 
-.SearchTaskForm button[type=submit]:disabled{
-  opacity: 0.7;
-  cursor:not-allowed;
+.SearchTaskForm button[type="submit"]:disabled {
+  opacity: 0.9;
+  cursor: not-allowed;
 }
 
 .title {
   display: flex;
   width: 100%;
   padding: 4.5rem 0 1rem 0;
-  border-bottom: 1px solid var(--gray-400); 
+  border-bottom: 1px solid var(--gray-400);
 }
 
 .taskCreated {
@@ -63,7 +63,7 @@
 .taskCreated p {
   font-size: 14px;
   font-weight: bold;
-  color: var(--blue);
+  color: var(--emerald);
 }
 
 .taskCreated span {
@@ -86,7 +86,7 @@
 .taskCompleted p {
   font-size: 14px;
   font-weight: bold;
-  color: var(--purple);
+  color: var(--emerald);
 }
 
 .taskCompleted span {
@@ -104,7 +104,7 @@
   gap: 10px;
 }
 
-.TaskContent{
+.TaskContent {
   display: flex;
   width: 100%;
   justify-content: between;

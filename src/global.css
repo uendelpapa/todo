@@ -1,22 +1,23 @@
-:root{
+:root {
   --white: #fff;
-  --gray-100: #F2F2F2;
-  --gray-200: #D9D9D9;
+  --gray-100: #f2f2f2;
+  --gray-200: #d9d9d9;
   --gray-300: #808080;
   --gray-400: #333333;
   --gray-500: #262626;
-  --gray-600: #1A1A1A;
-  --gray-700: #0D0D0D;
+  --gray-600: #1a1a1a;
+  --gray-700: #0d0d0d;
 
-  --blue: #4EA8DE;
-  --blue-dark: #1E6F9F;
+  --emerald: #10b981;
+  --emerald-dark: #047857;
 
-  --purple: #8284FA;
-  --purple-dark: #5E60CE;
+  --lime: #bef264;
+  --lime-dark: #65a30d;
 
-  --green:#14b477;
+  --green: #14b477;
+  --green-dark: #166534;
 
-  --red-500: #F75A68; 
+  --red-500: #f75a68;
 }
 
 :focus {
@@ -24,19 +25,22 @@
   box-shadow: 0 0 0 2px var(--green-500);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background: var(--gray-600);
   color: var(--gray-300);
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
+body,
+input,
+textarea,
+button {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
